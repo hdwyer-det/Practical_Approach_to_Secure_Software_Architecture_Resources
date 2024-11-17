@@ -17,7 +17,7 @@ def index_page():
         app.logger.critical(f"Password is {password}")
         is_logged_in = True
         app.logger.critical(f"User is logged in ? {is_logged_in}")
-    return render_template("index.html", is_logged_in=is_logged_in)
+    return render_template("index.html", is_logged_in=is_logged_in), 200
 
 
 if __name__ == "__main__":
