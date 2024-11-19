@@ -6,19 +6,30 @@
     </div>
   </div>
   <div class="row">
-    <form action="#" method="POST" class="box">
-      <div class="col-auto">
-        <label for="username" class="form-label">Username</label>
-        <input name="username" class="form-control" />
+    <form method="POST">
+      <div class="mb-3">
+        <label for="email" class="form-label">Email address</label>
+        <input
+          type="email"
+          name="email"
+          class="form-control"
+          id="exampleInputEmail1"
+          aria-describedby="emailHelp"
+          placeholder="you@address.com"
+        />
       </div>
-      <div class="col-auto">
+      <div class="mb-3">
         <label for="password" class="form-label">Password</label>
-        <input name="password" class="form-control" />
+        <input
+          name="password"
+          type="number"
+          class="form-control"
+          id="exampleInputPassword1"
+          pattern="^\d{4}$"
+          placeholder="4 Digit Pin"
+        />
       </div>
-      <br />
-      <div class="col-auto">
-        <button type="submit" class="btn btn-primary mb-3">Submit</button>
-      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
     </form>
   </div>
 </div>
