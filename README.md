@@ -2,6 +2,9 @@
 
 ## Session 1
 
+- [TempeHS Profiles & Pre-configuration](https://github.com/TempeHS/TempeHS_VSCode_Setup)
+-
+
 ## Session 2
 
 ├── .database
