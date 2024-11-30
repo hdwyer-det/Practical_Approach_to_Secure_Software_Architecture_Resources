@@ -7,7 +7,7 @@ import sqlite3 as sql
 
 
 def check_login(email, password):
-    con = sql.connect(".database_files/database.db")
+    con = sql.connect("database_files/database.db")
     cur = con.cursor()
     cur.execute(
         "SELECT * FROM TLD91_USERS WHERE email == ? AND password == ?",
