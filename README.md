@@ -36,6 +36,10 @@ The skills and tools can also be directly applied to supporting students with th
 - [GitHub Schools](https://github.com/education/schools)
 - [GitHub Teachers](https://github.com/education/teachers)
 - [GitHub Students](https://github.com/education/students)
+- Sample Student Portfolio's:
+  - https://github.com/leo-proj (2 years of Computer Technology/IST)
+  - https://github.com/Ariya02 (1 Year of Computer Technology/IST, 1 Year of Software Engineering)
+  - https://github.com/elliottp123 (1 Year of Computer Technology/IST, 1 Year of Software Engineering)
 
 ## Session 6 - Andrew Jackson, Manager Cyber Response and Digital Forensics ITD
 
