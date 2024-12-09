@@ -5,4 +5,11 @@
   </div>
   <div class="row"></div>
 </div>
-{% else %} {% include "partials/login_form.html" %} {% endif %} {% endblock %}
+{% else %} {% if not first %}
+<div class="container">
+  <div class="row">
+    <h1>Please try again</h1>
+  </div>
+  <div class="row"></div>
+</div>
+{% endif %} {% include "partials/login_form.html" %} {% endif %} {% endblock %}

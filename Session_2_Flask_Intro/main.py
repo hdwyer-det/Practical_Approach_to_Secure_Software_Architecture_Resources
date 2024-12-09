@@ -19,8 +19,10 @@ def index_page():
             email = request.form["email"]
             is_logged_in = db_manager.check_login(email, password)
         app.logger.critical(f"{email} is logged in ? {is_logged_in}")
+        return render_template("index.html", is_logged_in=is_logged_in, first=False), 200
     #print("Debug: Start of index_page")
-    return render_template("index.html", is_logged_in=is_logged_in), 200
+    else:
+        return render_template("index.html", is_logged_in=is_logged_in, first=True), 200
 
 
 # Initialize the Flask application
